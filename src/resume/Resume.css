@@ -1,0 +1,32 @@
+.resume {
+    text-align: start;
+    font-size: 14px;
+}
+
+.mainTitle {
+    font-size: 30px;
+}
+
+.subTitle {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+a {
+    color: #3973e9;
+}
+
+a:hover {
+    color: #153c88;
+}
+
+button {
+    background: none;
+    color: #3973e9;
+    border: none;
+    padding: 0;
+}
+
+button:hover {
+    color: #153c88;
+}
