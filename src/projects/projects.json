@@ -1,23 +1,34 @@
 [
     {
-        "title": "Restaurant Reservation",
+        "title": "Restaurant Reservation: Front End",
         "image": "../images/restaurant-reservation-app.png",
         "alt": "dashboard of restaurant reservation",
         "description": "Full stack application designed to assist in managing reservations and seating those reservations to tables.",
-        "techStack": "HTML, CSS, Javascript, React, Node.JS, Express, PostgreSQL, Knex, Git."
+        "techStack": "HTML, CSS, Javascript, React, Node.JS, Express, PostgreSQL, Knex, Git.",
+        "link": "https://restaurant-frontend-kbnj.onrender.com/dashboard"
+    },
+    {
+        "title": "Restaurant Reservation: Back End",
+        "image": "../images/restaurant-reservation-app.png",
+        "alt": "dashboard of restaurant reservation",
+        "description": "Full stack application designed to assist in managing reservations and seating those reservations to tables. Link will take you to the GitHub repo, which has the link to the deployed backend and a list of all API routes.",
+        "techStack": "Javascript, Node.JS, Express, PostgreSQL, Knex, Git.",
+        "link": "https://github.com/diegochavezversion2/starter-restaurant-reservation"
     },
     {
         "title": "Movie Madness",
         "image": "",
         "alt": "dashboard of movie madness",
         "description": "Full stack application working with an already existing tv show API. Displays, suggests, and filters tv shows, with the ability to create a playlist/watchlist for later.",
-        "techStack": "HTML, CSS, Javascript, React, Node.JS, Express, PostgreSQL, Knex, Git."
+        "techStack": "HTML, CSS, Javascript, React, Node.JS, Express, PostgreSQL, Knex, Git.",
+        "link": ""
     },
     {
         "title": "Recipe Tracker",
         "image": "../images/recipe-tracking-app.png",
         "alt": "dashboard of recipe tracker",
         "description": "Front End application for saving food recipes.",
-        "techStack": "HTML, CSS, Javascript"
+        "techStack": "HTML, CSS, Javascript",
+        "link": "https://recipe-tracking-app-3mqf.onrender.com/"
     }
 ]

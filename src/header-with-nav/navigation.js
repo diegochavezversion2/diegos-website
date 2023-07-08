@@ -4,7 +4,7 @@ import {useHistory} from "react-router-dom";
 function Navigation() {
     const history = useHistory();
 
-    function goHome(event) {
+    function goToClicked(event) {
         const buttonPressed = event.target.innerHTML.toLowerCase();
         buttonPressed === "home" ? history.push(`/`) : history.push(`/${buttonPressed}`)
     }
@@ -12,16 +12,16 @@ function Navigation() {
     return (
             <ul className="nav" >
                 <li>
-                    <button className="btn text-white mr-3" onClick={goHome} >Home</button>
+                    <button className="btn text-white mr-3" onClick={goToClicked} >Home</button>
                 </li>
                 <li>
-                    <button className="btn text-white mr-3" onClick={goHome} >Resume</button>
+                    <button className="btn text-white mr-3" onClick={goToClicked} >Resume</button>
                 </li>
                 <li>
-                    <button className="btn text-white mr-3" onClick={goHome} >Projects</button>
+                    <button className="btn text-white mr-3" onClick={goToClicked} >Projects</button>
                 </li>
                 <li>
-                    <button className="btn btn-outline-warning" onClick={goHome} >Contact</button>
+                    <button className="btn btn-outline-warning" onClick={goToClicked} >Contact</button>
                 </li>
             </ul>
     )

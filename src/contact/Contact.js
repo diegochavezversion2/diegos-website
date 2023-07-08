@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
     return (
-        <h1 className="text-white" >My Best Contact</h1>
+        <h1>My Best Contact</h1>
     )
 }
 
