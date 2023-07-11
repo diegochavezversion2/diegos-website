@@ -9,7 +9,7 @@ function Resume() {
         history.push('/projects')
     }
     return (
-        <div className="container-fluid text-white">
+        <div className="container-fluid">
             <h1>Resume</h1>
             <div className="resume">
                 <p className="mainTitle">Diego Chavez - Software Developer</p>
@@ -52,6 +52,8 @@ function Resume() {
                 <p>Thinkful Online</p>
                 <p>Certificate, Software Engineering Program 05/2023</p>
             </div>
+            {/* <a href="../images/profilePicture.jpg" download="Diego's Resume">Download Resume</a> */}
+            {/* <embed src="../images/flashcard-app.png" type="application/pdf" width={500} height="600px" /> */}
         </div>
     )
 }

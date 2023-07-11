@@ -21,13 +21,10 @@ function Navigation() {
                     <button className="btn text-white mr-3" onClick={goToClicked} >Projects</button>
                 </li>
                 <li>
-                    <button className="btn btn-outline-warning" onClick={goToClicked} >Contact</button>
+                    <a className="btn text-white" href="#contact" >Contact</a>
                 </li>
             </ul>
     )
 }
 
 export default Navigation;
-
-// <a className="col text-white text-decoration-none" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/d1ego-chavez/" >LinkedIn</a>
-// <a className="col text-white text-decoration-none" rel="noopener noreferrer" target="_blank" href="https://github.com/diegochavezversion2" >GitHub</a>
