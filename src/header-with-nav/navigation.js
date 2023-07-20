@@ -21,7 +21,7 @@ function Navigation() {
                     <button className="btn text-white mr-3" onClick={goToClicked} >Projects</button>
                 </li>
                 <li>
-                    <a className="btn text-white" href="#contact" >Contact</a>
+                    <a className="btn text-white transition" href="#contact" >Contact</a>
                 </li>
             </ul>
     )

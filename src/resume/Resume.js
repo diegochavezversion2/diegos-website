@@ -1,6 +1,7 @@
 import React from "react";
 import "./Resume.css";
 import { useHistory } from "react-router-dom";
+import {motion} from "framer-motion"
 
 function Resume() {
     const history = useHistory();
@@ -9,7 +10,12 @@ function Resume() {
         history.push('/projects')
     }
     return (
-        <div className="container-fluid">
+        <motion.div 
+            initial={{opacity: 0}} 
+            animate={{opacity: 1, transition: {duration: 1}}} 
+            // exit={{opacity: 0, transition: {duration: 0.5}}} 
+            className="container-fluid"
+        >
             <h1>Resume</h1>
             <div className="resume">
                 <p className="mainTitle">Diego Chavez - Software Developer</p>
@@ -54,7 +60,7 @@ function Resume() {
             </div>
             {/* <a href="../images/profilePicture.jpg" download="Diego's Resume">Download Resume</a> */}
             {/* <embed src="../images/flashcard-app.png" type="application/pdf" width={500} height="600px" /> */}
-        </div>
+        </motion.div>
     )
 }
 

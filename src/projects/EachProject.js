@@ -1,17 +1,25 @@
 import React from "react";
+import "./EachProject.css";
 
 function EachProject({layout, project}) {
-    // console.log("HERE", project.image)
+
 
     if (layout % 2 === 0) {
         return (
             <div className="project d-flex justify-content-around align-items-center mb-5">
                 <div className="col-4">
-                    <a className="btn btn-outline-warning" rel="noopener noreferrer" target="_blank" href={`${project.link}`}>Link To Deployed Sites<br></br>Images Coming Soon</a>
+                    <a rel="noopener noreferrer" target="_blank" href={`${project.link}`} >
+                        <img 
+                            className="projectImg"
+                            src={project.image} 
+                            alt={project.alt} 
+                            width={500} 
+                            height={300}
+                        />
+                    </a>
                 </div>
                 <div className="col">
                     <h3 className="text-warning">{project.title}</h3>
-                    {/* <img src={require(`${project.image}`)} alt={project.alt} /> */}
                     <p>{project.description}</p>
                     <p>Tech Stack: {project.techStack}</p>
                 </div>
@@ -22,12 +30,19 @@ function EachProject({layout, project}) {
             <div className="project d-flex justify-content-around align-items-center mb-5">
                 <div className="col">
                     <h3 className="text-warning">{project.title}</h3>
-                    {/* <img src={require(`${project.image}`)} alt={project.alt} /> */}
                     <p>{project.description}</p>
                     <p>Tech Stack: {project.techStack}</p>
                 </div>
                 <div className="col-4">
-                    <a className="btn btn-outline-warning" rel="noopener noreferrer" target="_blank" href={`${project.link}`}>Link To Deployed Sites<br></br>Images Coming Soon</a>
+                    <a rel="noopener noreferrer" target="_blank" href={`${project.link}`}>
+                        <img 
+                            className="projectImg"
+                            src={project.image} 
+                            alt={project.alt} 
+                            width={500} 
+                            height={300}
+                        />
+                    </a>
                 </div>
             </div>
         )

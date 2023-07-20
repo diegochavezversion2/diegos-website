@@ -1,9 +1,11 @@
 import React from 'react';
+import profilePic from "../images/profilePicture.jpg"
+import "./ProfilePic.css";
 
 function ProfilePic() {
     return (
         <div>
-            <img src={require("../images/profilePicture.jpg")} alt='Man on laptop emoji' width={500} height={500}/>
+            <img className='profilePicImg' src={profilePic} alt='Man on laptop emoji' width={500} height={500}/>
         </div>
     )
 }
