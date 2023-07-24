@@ -14,10 +14,10 @@ function Resume() {
             initial={{opacity: 0}} 
             animate={{opacity: 1, transition: {duration: 1}}} 
             // exit={{opacity: 0, transition: {duration: 0.5}}} 
-            className="container-fluid"
+            className="container-fluid resume"
         >
-            <h1>Resume</h1>
-            <div className="resume">
+            <h1 className="titles">Resume</h1>
+            <div className="resume-protein">
                 <p className="mainTitle">Diego Chavez - Software Developer</p>
                 <p>STANTON, CA | 818-284-9264 | diegochavez3.0@hotmail.com | <a className="text-decoration-none" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/d1ego-chavez/" >LinkedIn</a> | <a className="text-decoration-none" rel="noopener noreferrer" target="_blank" href="https://github.com/diegochavezversion2" >GitHub</a> </p>
                 <p className="subTitle">SUMMARY</p>

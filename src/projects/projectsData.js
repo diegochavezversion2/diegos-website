@@ -1,6 +1,7 @@
 import reservationAppImg from "../images/restaurant-reservation-app.png";
 import recipeTrackerImg from "../images/recipe-tracking-app.png";
-import movieMadness from "../images/MovieMadnessScreenshot.png"
+import movieMadness from "../images/MovieMadnessScreenshot.png";
+import reservationAppApiRoutes from "../images/restaurant-reservation-app-api-routes.png"
 
 const projectsData = [
     {
@@ -13,7 +14,7 @@ const projectsData = [
     },
     {
         "title": "Restaurant Reservation: Back End",
-        "image": reservationAppImg,
+        "image": reservationAppApiRoutes,
         "alt": "dashboard of restaurant reservation",
         "description": "Full stack application designed to assist in managing reservations and seating those reservations to tables. Link will take you to the GitHub repo, which has the link to the deployed backend and a list of all API routes.",
         "techStack": "Javascript, Node.JS, Express, PostgreSQL, Knex, Git.",

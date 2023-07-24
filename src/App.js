@@ -12,8 +12,8 @@ function App() {
         <div className="content-wrap">
           <AnimatedRoutes />
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

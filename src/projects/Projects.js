@@ -11,7 +11,7 @@ function Projects() {
             animate={{opacity: 1, transition: {duration: 1}}} 
             // exit={{opacity: 0, transition: {duration: 0.5}}}
         >
-            <h1 className="mb-5" >Projects</h1>
+            <h1 className="mb-5 titles" >Projects</h1>
             {projectsData.map((project, index) => (
                 <EachProject project={project} layout={index} key={index}/>
             ))}

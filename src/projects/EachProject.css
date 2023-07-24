@@ -1,3 +1,8 @@
 .projectImg {
-    border-radius: 2%;
+    border-radius: 10px;
+}
+
+.project-description {
+    background-color: rgba(0,0,0,.8);
+    border-radius: 10px;
 }

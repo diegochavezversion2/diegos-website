@@ -18,7 +18,7 @@ function EachProject({layout, project}) {
                         />
                     </a>
                 </div>
-                <div className="col">
+                <div className="col project-description">
                     <h3 className="text-warning">{project.title}</h3>
                     <p>{project.description}</p>
                     <p>Tech Stack: {project.techStack}</p>
@@ -28,7 +28,7 @@ function EachProject({layout, project}) {
     } else {
         return (
             <div className="project d-flex justify-content-around align-items-center mb-5">
-                <div className="col">
+                <div className="col project-description">
                     <h3 className="text-warning">{project.title}</h3>
                     <p>{project.description}</p>
                     <p>Tech Stack: {project.techStack}</p>

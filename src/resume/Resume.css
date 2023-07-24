@@ -1,6 +1,16 @@
-.resume {
+.resume-protein {
     text-align: start;
     font-size: 14px;
+    background-color: rgba(0,0,0,.8);
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.resume {
+    width: 1000px;
 }
 
 .mainTitle {
